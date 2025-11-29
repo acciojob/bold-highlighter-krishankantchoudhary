@@ -1,7 +1,7 @@
 let para=document.querySelectorAll("strong");
 let link=document.querySelector("a");
 link.addEventListener("onmouseover",highlight);
-link.addEventlistener("onmouseout",return_normal);
+link.addEventListener("onmouseout",return_normal);
 
 function highlight() {
     //Write your code here
